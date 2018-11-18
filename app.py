@@ -1,7 +1,8 @@
 # importing packages
 from flask import Flask ,render_template, redirect, url_for, session, request, logging
-import requests
+#import requests
 #import json
+
 app = Flask(__name__) #app initialisation
 
 @app.route('/', methods=['GET','POST']) #landing page intent
