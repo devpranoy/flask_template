@@ -14,6 +14,10 @@ if __name__=='__main__':
     #use threaded=True instead of debug=True for production
     # use port =80 for using the http port
 
+
+
+#sample code for form data recieve
+# request.form['name']
 # Sample Code for JSON send data to api
 
 #url = 'URL_FOR_API'
