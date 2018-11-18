@@ -1,6 +1,7 @@
 # importing packages
 from flask import Flask ,render_template, redirect, url_for, session, request, logging
 import requests
+#import json
 app = Flask(__name__) #app initialisation
 
 @app.route('/', methods=['GET','POST']) #landing page intent
@@ -12,3 +13,20 @@ if __name__=='__main__':
     #use threaded=True instead of debug=True for production
     # use port =80 for using the http port
 
+# Sample Code for JSON send data to api
+
+#url = 'URL_FOR_API'
+#data = {'TimeIndex':time1 ,'Name':name,'PhoneNumber':phone}
+#headers = {'content-type': 'application/json'}
+#r=requests.post(url, data=json.dumps(data), headers=headers)
+#data = r.json()
+#print(data)
+
+
+#Sample code for JSON recieve data from API
+
+#url = 'URL_FOR_API'
+#headers = {'content-type': 'application/json'}
+#r=requests.get(url, headers=headers)
+#data = r.json()
+#count = data['Count']
