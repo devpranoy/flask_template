@@ -19,3 +19,4 @@ To run a Flask app on localhost
 sudo python app.py
 
 ```
+Heroku support files are in the folder named heroku
